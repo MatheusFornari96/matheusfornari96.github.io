@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portifólio | Responsive Website Design</title>
+  <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+  <div class="toggle" onclick="toggleMenu();"> </div>
+
+  <section id="home" class="banner">
+    <div class="imgSidebar">
+      <img src="./assets/images/bg.jpg" alt="">
+    </div>
+    <div class="contentBx">
+      <h5 class="logoText">My_Portifólio</h5>
+      <div>
+        <h4><span>Hello</span>, I'm</h4>
+        <h2>Matheus Fornari</h2>
+        <h4>I'm a Front End Web Developer.</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolor, voluptates, asperiores quia velit, libero voluptatem
+        et quo quos illo rerum quas molestiae ex sapiente dolorem temporibus nemo labore fugiat. Labore quis velit ipsum sequi, magnam
+        voluptas consequuntur illo tenetur quas quisquam, sapiente asperiores praesentium voluptatum ratione ipsam? Ea, beatae ipsum.
+        Labore, rem earum officiis molestiae laboriosam perspiciatis veritatis sapiente!
+        </p>
+        <a href="#" class="btn">About Me</a>
+      </div>
+      <ul class="sci">
+        <li>
+          <a href="#">
+            <img src="./assets/images/facebook.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/images/twitter.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/images/instagram.png" alt="">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  
+  <section id="about" class="about">
+
+  </section>
+
+  <div class="sidebar">
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Work</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const menuToggle = document.querySelector('.toggle');
+      const sidebar = document.querySelector('.sidebar');
+      menuToggle.classList.toggle('active');
+      sidebar.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
