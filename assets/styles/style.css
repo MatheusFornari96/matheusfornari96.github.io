@@ -561,6 +561,26 @@ p{
   }
 }
 
+@media (max-height: 375px)
+{
+  .banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: 141vh;
+  }
+}
+
+@media (max-height: 667px)
+{
+  .banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: 141vh;
+  }
+}
+
 @media (max-height: 667px)
 {
   .banner {
