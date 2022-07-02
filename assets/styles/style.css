@@ -560,3 +560,13 @@ p{
     margin: 10px 0;
   }
 }
+
+@media (max-height: 667px)
+{
+  .banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: 141vh;
+  }
+}
