@@ -571,7 +571,7 @@ p{
   }
 }
 
-@media (max-height: 667px)
+@media (max-width: 375px)
 {
   .banner {
     position: relative;
